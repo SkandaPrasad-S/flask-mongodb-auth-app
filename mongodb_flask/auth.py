@@ -110,3 +110,32 @@ class UserLogin(Resource):
 
         logger.info('User authenticated successfully: %s', username)
         return {'message': 'User authenticated successfully'}, 200
+    
+@auth.route('/delete')
+class UserDeletion(Resource):
+    @auth.expect(user_model)
+    def delete(self):
+        # Get the JSON payload
+        data = auth.payload
+        username = data.get('username')
+
+        # Validate username
+        if not username:
+            logger.error('Username is required.')
+            raise BadRequest('Username is required.')
+
+        # Get the database
+        db = current_app.config['DATABASE']
+        users_collection = db['users']
+
+        # Check if the user exists
+        user = users_collection.find_one({'username': username})
+        if not user:
+            logger.error('User not found for username: %s', username)
+            raise BadRequest('User not found.')
+
+        # Delete the user from the database
+        users_collection.delete_one({'username': username})
+
+        logger.info('User deleted successfully: %s', username)
+        return {'message': 'User deleted successfully'}, 200

@@ -1,15 +1,3 @@
-2023-07-08 15:31:29,319 - mongodb_flask.auth - INFO - User registered successfully: test_user
-2023-07-08 15:32:26,459 - mongodb_flask.auth - ERROR - User already exists.
-2023-07-08 15:32:55,898 - mongodb_flask.auth - ERROR - User already exists.
-2023-07-08 15:35:52,558 - mongodb_flask.auth - ERROR - User already exists.
-2023-07-08 15:37:07,932 - mongodb_flask.auth - ERROR - User already exists.
-2023-07-08 15:37:08,961 - mongodb_flask.auth - ERROR - User already exists.
-2023-07-08 15:37:10,356 - mongodb_flask.auth - INFO - User authenticated successfully: test_user
-2023-07-08 15:37:11,393 - mongodb_flask.auth - ERROR - Invalid credentials for username: test_user
-2023-07-08 15:37:46,292 - mongodb_flask.auth - ERROR - User already exists.
-2023-07-08 15:37:47,135 - mongodb_flask.auth - ERROR - User already exists.
-2023-07-08 15:37:48,192 - mongodb_flask.auth - INFO - User authenticated successfully: test_user
-2023-07-08 15:37:49,248 - mongodb_flask.auth - ERROR - Invalid credentials for username: test_user
-2023-07-08 15:38:26,740 - mongodb_flask.auth - ERROR - User already exists.
-2023-07-08 15:38:27,878 - mongodb_flask.auth - INFO - User authenticated successfully: test_user
-2023-07-08 15:38:28,943 - mongodb_flask.auth - ERROR - Invalid credentials for username: test_user
+2023-07-08 15:43:21,220 - mongodb_flask.auth - ERROR - User already exists.
+2023-07-08 15:43:22,510 - mongodb_flask.auth - INFO - User authenticated successfully: test_user
+2023-07-08 15:43:23,592 - mongodb_flask.auth - ERROR - Invalid credentials for username: test_user
