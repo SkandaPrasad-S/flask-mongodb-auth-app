@@ -1,1 +1,6 @@
 2023-07-08 15:41:45,140 - auth - INFO - User deleted successfully: skandaps
+2023-07-08 15:45:56,686 - auth - INFO - User deleted successfully: test_user
+2023-07-08 15:46:04,937 - auth - INFO - User deleted successfully: test_user
+2023-07-08 15:46:05,503 - auth - INFO - User deleted successfully: test_user
+2023-07-08 15:46:05,961 - auth - INFO - User deleted successfully: test_user
+2023-07-08 15:46:06,734 - auth - ERROR - User not found for username: test_user
